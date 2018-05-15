@@ -10,12 +10,20 @@
         height:p2r(50px);
     }
 }
+.clearfix{
+    content:".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height:0;
+}
    $top1:p2r(120px);
 .header-page{
     background-color: #7484ca;
     height:p2r(100px);
    top:0;
    left:0;
+   overflow:hidden;
 }
 ul,li{
     margin:0;
@@ -26,7 +34,6 @@ a{
     text-decoration:none
 }
 .myNav{
-    width:p2r(600px);
     margin-left:p2r(50px);
     height:p2r(100px);
     line-height: p2r(100px);
@@ -39,15 +46,28 @@ a{
 .panner{
     width:p2r(1200px);
     margin:0 auto;
-    margin-top:p2r(10px);
-    background: #7ca
-
+    background: rgb(202, 207, 205)
 }
 .panner-left{
     width:75%;
-    background-image: url(img/img2.jpg);
 }
     
 .panner-right{
     width:25%;
 }
+.footer-page{
+    height:p2r(50px);
+    background-color:#bbffdd;
+}
+.searchBar{
+    float:right;
+    margin-right:p2r(120px);
+}
+.img-up{
+    opacity:0.8;
+    filter:alpha(opacity=50); /* 针对 IE8 以及更早的版本 */
+}
+.img-down {
+    position:relative;
+}
+

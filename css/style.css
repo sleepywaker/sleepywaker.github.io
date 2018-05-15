@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .hello {
   width: 6.25rem;
   height: 6.25rem;
@@ -8,11 +9,20 @@
   height: 3.125rem;
 }
 
+.clearfix {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+}
+
 .header-page {
   background-color: #7484ca;
   height: 6.25rem;
   top: 0;
   left: 0;
+  overflow: hidden;
 }
 
 ul, li {
@@ -26,7 +36,6 @@ a {
 }
 
 .myNav {
-  width: 37.5rem;
   margin-left: 3.125rem;
   height: 6.25rem;
   line-height: 6.25rem;
@@ -41,16 +50,34 @@ a {
 .panner {
   width: 75rem;
   margin: 0 auto;
-  margin-top: 0.625rem;
-  background: #7ca;
+  background: #cacfcd;
 }
 
 .panner-left {
   width: 75%;
-  background-image: url(img/img2.jpg);
 }
 
 .panner-right {
   width: 25%;
+}
+
+.footer-page {
+  height: 3.125rem;
+  background-color: #bbffdd;
+}
+
+.searchBar {
+  float: right;
+  margin-right: 7.5rem;
+}
+
+.img-up {
+  opacity: 0.8;
+  filter: alpha(opacity=50);
+  /* 针对 IE8 以及更早的版本 */
+}
+
+.img-down {
+  position: relative;
 }
 /*# sourceMappingURL=style.css.map */
