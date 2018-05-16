@@ -10,19 +10,15 @@
         height:p2r(50px);
     }
 }
-.clearfix{
-    content:".";
-    display: block;
+.fix::after{
+    content:'';
+    display: table;
     clear: both;
-    visibility: hidden;
-    height:0;
 }
    $top1:p2r(120px);
 .header-page{
     background-color: #7484ca;
     height:p2r(100px);
-   top:0;
-   left:0;
    overflow:hidden;
 }
 ul,li{
@@ -49,11 +45,14 @@ a{
     background: rgb(202, 207, 205)
 }
 .panner-left{
-    width:75%;
+    width:p2r(373px);
+    background-color: rgb(225, 146, 205);
+    float:left;
 }
     
 .panner-right{
-    width:25%;
+   background-color: #777777;
+   float: right;
 }
 .footer-page{
     height:p2r(50px);

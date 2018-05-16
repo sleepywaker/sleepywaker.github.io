@@ -9,12 +9,10 @@
   height: 3.125rem;
 }
 
-.clearfix {
-  content: ".";
-  display: block;
+.fix::after {
+  content: '';
+  display: table;
   clear: both;
-  visibility: hidden;
-  height: 0;
 }
 
 .header-page {
@@ -54,11 +52,14 @@ a {
 }
 
 .panner-left {
-  width: 75%;
+  width: 23.3125rem;
+  background-color: #e192cd;
+  float: left;
 }
 
 .panner-right {
-  width: 25%;
+  background-color: #777777;
+  float: right;
 }
 
 .footer-page {
