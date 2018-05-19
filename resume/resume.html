@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>resume of sleepywaker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style_1.css" id="cssfile"/>
+</head>
+<body>
+    <div class="left">
+        <h1>简历</h1>
+    </div>
+    <div class="right">
+        <div class="head">
+            <h3>基本信息</h3>
+        </div>
+        <div class="back"><span>姓名&nbsp;&nbsp;张三</span>&nbsp;&nbsp;&nbsp;&nbsp;<span>性别&nbsp;&nbsp;男</span>
+        &nbsp;&nbsp;&nbsp;&nbsp;<span>应聘职位</span>&nbsp;&nbsp;Web前端工程师<br/>
+        </div> 
+        <div class="head">
+            <h2>联系方式</h2>
+        </div>
+        <div class="back"><span>手机&nbsp;&nbsp;12312341234</span>&nbsp;&nbsp;&nbsp;&nbsp;<span>Email&nbsp;&nbsp;<a href="">sleepywaker@163.com</a></span>
+        &nbsp;&nbsp;&nbsp;&nbsp;<span>个人主页</span>&nbsp;&nbsp;<a href="https://github.com/sleepywaker" target="_blank">Github</a><br/>
+        </div>
+        <div class="head">
+             <h2>能力描述</h2>
+        </div>
+        <div class="back"><span class="biggersize">技术能力</span>
+        <span>熟练掌握HTML,CSS,JavaScript</span><br/>
+        <span class="biggersize">综合能力</span>
+        <span>良好的沟通，主动积极，努力勤奋</span><br/>
+        </div>
+        <div class="head">
+            <h2>教育经历</h2>
+        </div>
+        <div class="back"><span class="biggersize">本科</span>
+        <span>百度前端技术学院小薇学院</span><br/>
+        <span class="biggersize">研究生</span>
+        <span>百度前端技术学院大斌学院</span>
+        </div>
+        <div class="head">
+            <h2>项目经历</h2>
+        </div>
+        <div class="back"><span class="biggersize">小度小度</span>
+        <span>作为前端工程师角色参与了ABC组件的开发</span><br/>
+        <span class="biggersize">SAN Doc</span>
+        <span>作为文档工程师参与了SAN Doc编写</span>
+        </div>  
+    </div>
+    <input type="button" id="style_1" value="样式一" onclick="changeSyle('style_1');" />  
+    <input type="button" id="style_2" value="样式二" onclick="changeSyle('style_2');" />  
+    <input type="button" id="style_3" value="样式三" onclick="changeSyle('style_3');" />
+    <script>
+        function changeSyle(name){  
+            css=document.getElementById("cssfile");  
+            css.href=name+".css";  
+            document.styleSheets[0].href=name+".css";  
+        }  
+    </script>
+</body>
+</html>
