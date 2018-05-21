@@ -23,8 +23,9 @@ span{
     margin-left:30px;
 }
 body{
-    width:70%;
+    width:1000px;
     margin: 0 auto;
+    overflow:auto;
 }
 .left{
     float:left;

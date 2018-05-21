@@ -1,4 +1,9 @@
 
+body{
+    width:1160px;
+    margin: 0 auto;
+    overflow: hidden;
+}
 h1{ 
     width:100%;
     display:block;
@@ -10,30 +15,22 @@ h1{
     height:50px;
     line-height:50px;
 }
-.right{
-    min-width:570px;
-    overflow: hidden;
-}
 h3,h2{
     font-size:14px; 
 }
-body{
-    width:80%;
-    margin: 0 auto;
-}
 .head{
     float:left;
-    width:10%;
+    width:115px;
     height:80px;
     background-color:#bbb;
     text-align:center;
     border-bottom: 1px solid #fff;
     line-height: 50px;
     margin-right:10px;
-   
 }
 .back{
     height:80px;
+    width:1160px;
     border-right:1px solid #aaa;
     border-bottom:1px solid #aaa;
     font-size:13px;
