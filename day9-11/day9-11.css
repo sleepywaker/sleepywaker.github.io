@@ -1,0 +1,399 @@
+*{
+    padding:0;
+    margin:0;
+}
+.fix{
+    content:'';
+    display:table;
+    clear: both;
+}
+ul,li{
+    list-style:none;
+}
+header{
+    width:1600px;
+    height:1000px;
+    background-image: url(../day9-11/images/header-bg.png);
+    text-align: center;
+}
+header h1{
+    display:inline-block;
+    margin-top:210px;
+    color:#fff;
+}
+header p{
+    margin-top:80px;
+    color:#fff;
+}
+.register{
+    width:800px;
+    height:250px;
+    border:1px solid #b2b1ac;
+    margin:0 auto;
+    margin-top:110px;
+}
+.register h4{
+    color:#fff;
+    margin-top:60px;
+}
+.register h6{
+    color:#b2b1ac;
+    position:relative;
+    top:20px;
+}
+.register input{
+    width:240px;
+    height:38px;
+    background-color: transparent;
+    border:1px solid #b2b1ac;
+    margin-top:60px;
+}
+.e-mail::-webkit-input-placeholder{
+    color:#fff;
+}
+.pass-word::-webkit-input-placeholder{
+    color:#b2b1ac;
+}
+.sign-up{
+    width:100px;
+    height:40px;
+    border:1px solid #b2b1ac;
+    background-color: #fff;
+}
+.e-mail,.pass-word,.sign-up{
+    margin-right:20px;
+}
+.e-mail{
+    margin-left:80px;
+}
+.sign-up{
+    margin-right:80px;
+}
+.introduce{
+    height:700px;
+    width:1600px;
+    background-color: #fff;
+}
+.introduce-head{
+    width:1040px;
+    margin:0 auto;
+    text-align:center;   
+}
+.introduce h6{
+    margin-top:90px;
+    margin-bottom:40px;
+}
+.featrue-flex{
+    width:1040px;
+    height:260px;
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    margin:0 auto;
+    margin-top:90px;
+    justify-content: space-between;
+}
+.featrue-item{
+    flex-basis: 480px;
+    height:120px;
+    box-sizing: border-box;
+}
+.icon{
+    width:100px;
+    height:120px;
+    float:left;
+    margin-right:30px;
+}
+.icon img{
+    float:right;
+}
+.service{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.call-action{
+    position:relative;
+    height:800px;
+    width:1600px;
+    background-image: url(../day9-11/images/call-action-bg.png);
+}
+.call-action img{
+    position:absolute;
+    left:960px;
+    top:100px;
+}
+.call-action-word{
+    position:absolute;
+    height:320px;
+    width:380px;
+    top:180px;
+    left:320px;
+    color:#fff;
+    line-height: 1.5;
+    word-spacing: 3px;
+}
+.call-action-button{
+    position:absolute;
+    top:560px;
+    left:320px;
+}
+.call-action-button button{
+    width:240px;
+    height:40px;
+    margin-right:40px;
+}
+.button-left{
+    background-color: #fff;
+}
+.button-right{
+    background-color: transparent;
+    color:#fff;
+}
+.product{
+    height:580px;
+    width: 1600px;
+    text-align:center;
+    border-bottom:1px solid #b2b1ac;
+}
+.product-flex{
+    display:flex;
+    width:960px;
+    height:280px;
+    margin:0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.product-item{ 
+    width: 260px;
+}
+.product h2{
+   padding-top:100px;
+}
+.works{
+    width:1600px;
+    height:1000px;
+    border-bottom:1px solid #b2b1ac;
+}
+.leaf{
+    height:350px;
+    width:960px;
+    margin:0 auto;
+    padding-top:120px;
+}
+.bird{
+    height:350px;
+    width:960px;
+    margin:0 auto;
+    margin-top:80px;
+}
+.leaf img{
+    float:left;
+    width:570px;
+    height:350px;
+    margin-right:100px;
+}
+.bird img{
+    float:right;
+    width:570px;
+    height:350px;
+    margin-left:100px;
+}
+.leaf-content{
+    margin-top:70px;
+}
+.bird-content{
+    margin-top:70px;
+}
+.content-title{
+    font-weight: 600;
+    line-height: 1.5;
+}
+.team{
+    width:1600px;
+    height:1080px;
+    border-bottom:1px solid #b2b1ac;
+    text-align: center;
+}
+.team h2{
+    padding-top:100px;
+    padding-bottom:40px;
+}
+.team-leader{
+    width:980px;
+    height:700px;
+    margin:0 auto;
+    padding-top:70px;
+}
+.single-1{
+    width:470px;
+    height:340px;
+    background-color: aqua;
+    float:left;
+    background-image: url(../day9-11/images/single-one.png);
+}
+.single-2{
+    width:470px;
+    height:340px;
+    background-color: aqua;
+    float:right;
+    background-image: url(../day9-11/images/single-two.png);
+}
+.single-3{
+    width:470px;
+    height:340px;
+    background-color: aqua;
+    float:left;
+    background-image: url(../day9-11/images/single-three.png);
+    margin-top:30px;
+}
+.single-4{
+    width:470px;
+    height:340px;
+    background-color: aqua;
+    float:right;
+    background-image: url(../day9-11/images/single-four.png);
+    margin-top:30px;
+}
+.inner-bg{
+    width:470px;
+    height:340px;
+    background-image: url(../day9-11/images/inner-bg.png);
+    color:#fff;
+    visibility: hidden;
+}
+.inner-bg p{
+    padding-top:100px;
+    padding-bottom:20px;
+}
+.social-button{
+    margin-top:40px;
+}
+.social-button img{
+    margin-left:15px;
+    margin-right:15px;
+}
+.single-1:hover .inner-bg{
+    visibility:visible;
+    cursor:pointer;
+}
+.single-2:hover .inner-bg{
+    visibility:visible;
+    cursor:pointer;
+}
+.single-3:hover .inner-bg{
+    visibility:visible;
+    cursor:pointer;
+}
+.single-4:hover .inner-bg{
+    visibility:visible;
+    cursor:pointer;
+}
+.contact{
+    width:1600px;
+    height:700px;
+}
+.contact-inner{
+    margin:0 auto;
+    width:980px;
+}
+.contact-form{
+    width:470px;
+    height:560px;
+    border:1px solid #b2b1ac;
+    float:left;
+    margin-right:120px;
+    margin-top:70px;
+    text-align: center;
+}
+.contact-form p{
+    padding-top:10px;
+}
+.contact-email{
+    display:block;
+    margin:0 auto;
+    width:370px;
+    height:50px;
+    margin-top:40px;
+}
+.contact-subject{
+    display:block;
+    margin:0 auto;
+    width:370px;
+    height:50px;
+    margin-top:30px;
+}
+.contact-message{
+    display:block;
+    margin:0 auto;
+    width:370px;
+    height:50px;
+    margin-top:30px;
+    padding-bottom:100px;
+}
+.contact-send{
+    display:block;
+    margin:0 auto;
+    width:376px;
+    height:50px;
+    background-color: #111;
+    color:#fff;
+    margin-top:30px;
+}
+.contact-inner h2{
+    margin-top:160px;
+}
+.contact-inner p{
+    margin-top:40px;
+}
+.contact-inner img{
+    margin-right:10px;
+}
+.inner-map{
+    margin-top:70px;
+}
+.inner-phone{
+    margin-top:30px;
+}
+.inner-mail{
+    margin-top:40px;
+}
+footer{
+    height:410px;
+    width:1600px;
+    background-color: #111;
+    color:#494949;
+    text-align:center;
+}
+.content{
+    width:1160px;
+    height:220px;
+    margin:0 auto;
+    padding-top:80px;
+}
+.content ul{
+    float:left;
+}
+.content ul li{
+    margin-right:150px;
+    text-align: left;
+    line-height:2.5;
+}
+.contact-us{
+    float:right;
+}
+.content-title{
+    color:#fff;
+}
+.contact-us span{
+    color:#fff;
+}
+.contact-us p{
+    margin-top:30px;
+}
+.social-icon{
+    margin-top:50px;
+    text-align: left;
+}
+.social-icon a{
+    margin-right:30px;
+}
