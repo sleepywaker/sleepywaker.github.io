@@ -47,7 +47,10 @@
         <span>作为前端工程师角色参与了ABC组件的开发</span><br/>
         <span class="biggersize">SAN Doc</span>
         <span>作为文档工程师参与了SAN Doc编写</span>
-        </div>  
+        </div> 
+        <div id="js-hobby" style="visibility: hidden"><p>我的爱好：篮球、轮滑、旅游、看书</p></div> 
+        <button id="show-hobby" onclick=showHobby()>显示爱好</button>
+        <button id="hide-hobby" onclick=hideHobby()>隐藏爱好</button>
     </div>
     <input type="button" id="style_1" value="样式一" onclick="changeSyle('style_1');" />  
     <input type="button" id="style_2" value="样式二" onclick="changeSyle('style_2');" />  
@@ -57,7 +60,15 @@
             css=document.getElementById("cssfile");  
             css.href=name+".css";  
             document.styleSheets[0].href=name+".css";  
-        }  
+        } 
+        function showHobby(){
+            var x=document.getElementById("js-hobby")
+                x.style.visibility="visible" ;
+        } 
+        function hideHobby(){
+            var x=document.getElementById("js-hobby")
+                x.style.visibility="hidden" ;
+        } 
     </script>
 </body>
 </html>
