@@ -115,6 +115,7 @@ header p{
     position:relative;
     height:800px;
     width:1600px;
+    overflow: hidden;
     background-image: url(../day9-11/images/call-action-bg.png);
 }
 .call-action img{
