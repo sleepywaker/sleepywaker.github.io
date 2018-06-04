@@ -59,7 +59,6 @@
         function changeSyle(name){  
             css=document.getElementById("cssfile");  
             css.href=name+".css";  
-            document.styleSheets[0].href=name+".css";  
         } 
         function showHobby(){
             var x=document.getElementById("js-hobby")
@@ -69,6 +68,20 @@
             var x=document.getElementById("js-hobby")
                 x.style.visibility="hidden" ;
         } 
+        
+        var myDate=new Date();
+        var mytime=myDate.toLocaleTimeString();
+        if(mytime<="12:00:00"){
+            alert("上午好!");
+            }
+            else if(mytime>"12:00:00"&&mytime<"18:00:00"){
+                alert("下午好!");
+            }
+            else{
+                alert("晚上好!");
+            }
+
+     
     </script>
 </body>
 </html>
