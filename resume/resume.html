@@ -58,7 +58,8 @@
     <script>
         function changeSyle(name){  
             css=document.getElementById("cssfile");  
-            css.href=name+".css";  
+            css.href=name+".css"; 
+            document.styleSheets[0].href=name+".css";  
         } 
         function showHobby(){
             var x=document.getElementById("js-hobby")
