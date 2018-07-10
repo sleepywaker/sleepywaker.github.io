@@ -13,14 +13,21 @@
     <p>hi,欢迎光临</p>  
     <router-link to='/home'>主页</router-link>
     <router-link to='/joke'>段子</router-link>
-    <router-link to='/about'>关于</router-link>
+    <router-link to='/about'>About me</router-link>
     </div>
     <router-view id='temp'></router-view>
     </div>
 </body>
 <script src="https://unpkg.com/vue/dist/vue.js"></script>
 <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
-<script id='home' type='text/v-temp'></script>
+<script id='home' type='text/v-temp'>
+<p>主页</p>
+<p>学习笔记</p>
+<ul>
+<li></li>
+<li></li>
+</ul>
+</script>
 <script id='joke' type='text/v-temp'>
     <div>
     <br>
@@ -84,8 +91,9 @@
     </p>
     </div>
 </script>
-<script id='about' type='text/v-temp'></script>
-
+<script id='about' type='text/v-temp'>
+<P>我的简历</p>
+</script>
 <script src='js/home.js'></script>
 
 </html>
