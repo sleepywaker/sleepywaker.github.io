@@ -1,0 +1,14 @@
+*{
+    margin:0;
+    padding:0;
+}
+#header{
+    background-color: #ff9999;
+    height:50px;
+    width: 100%;
+}
+#temp{
+    height:700px;
+    width:100%;
+    background-color: #99ffdd;
+}
