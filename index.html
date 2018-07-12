@@ -21,12 +21,14 @@
 <script src="https://unpkg.com/vue/dist/vue.js"></script>
 <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
 <script id='home' type='text/v-temp'>
+    <div>
 <p>主页</p>
 <p>学习笔记</p>
-<ul>
-<li></li>
-<li></li>
-</ul>
+<router-link to='/home/myhome'>myhome</router-link>
+<router-link to='/home/yourhome'>yourhome</router-link>
+<router-link to='/home/herhome'>herhome</router-link>
+<router-view></router-view>
+</div>
 </script>
 <script id='joke' type='text/v-temp'>
     <div>
@@ -95,5 +97,6 @@
 <P>我的简历</p>
 </script>
 <script src='js/home.js'></script>
+
 
 </html>

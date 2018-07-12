@@ -11,12 +11,41 @@ const Joke={
 const About={
     template:loadTemp('#about')
 }
+const Myhome={
+   
+    template:'<div>my</div>'
+}
+const Yourhome={
+    
+    template:'<div>your</div>'
+}
+const Herhome={
+   
+    template:'<div>her</div>'
+}
 //路由
 const routes=[
-    {path:'/home',component:Home},
-    {path:'/joke',component:Joke},
-    {path:'/about',component:About},
-    {path:'*',redirect:'/home'}
+    {
+        path:'/home',
+        component:Home,
+        children:[
+            {path:'myhome',component:Myhome},
+            {path:'yourhome',component:Yourhome},
+            {path:'herhome',component:Herhome}
+        ]
+    },
+    {
+        path:'/joke',
+        component:Joke
+    },
+    {
+        path:'/about',
+        component:About
+    },
+    {
+        path:'*',
+        redirect:'/home'
+    }
 ]
 //创建Vuerouter实例
 const router=new VueRouter({
