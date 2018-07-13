@@ -11,17 +11,32 @@ const Joke={
 const About={
     template:loadTemp('#about')
 }
-const Myhome={
-   
-    template:'<div>my</div>'
+const note1={
+    template:loadTemp('#no1')
 }
-const Yourhome={
-    
-    template:'<div>your</div>'
+const note2={
+    template:loadTemp('#no2')
 }
-const Herhome={
-   
-    template:'<div>her</div>'
+const note3={
+    template:loadTemp('#no3')
+}
+const note4={
+    template:loadTemp('#no4')
+}
+const note5={
+    template:loadTemp('#no5')
+}
+const note6={
+    template:loadTemp('#no6')
+}
+const note7={
+    template:loadTemp('#no7')
+}
+const note8={
+    template:loadTemp('#no8')
+}
+const note9={
+    template:loadTemp('#no9')
 }
 //路由
 const routes=[
@@ -29,9 +44,15 @@ const routes=[
         path:'/home',
         component:Home,
         children:[
-            {path:'myhome',component:Myhome},
-            {path:'yourhome',component:Yourhome},
-            {path:'herhome',component:Herhome}
+            {path:'1',component:note1},
+            {path:'2',component:note2},
+            {path:'3',component:note3},
+            {path:'4',component:note4},
+            {path:'5',component:note5},
+            {path:'6',component:note6},
+            {path:'7',component:note7},
+            {path:'8',component:note8},
+            {path:'9',component:note9},
         ]
     },
     {
